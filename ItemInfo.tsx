@@ -193,12 +193,12 @@ export const allItems = [
   },
   {
     name: "Steel",
-    itemsPerMin: 7.5,
+    itemsPerMin: 10,
     building: "Forge",
     value: 12,
     ingredientList: [
-      { name: "Iron Ore", amount: 6 },
-      { name: "Graphite", amount: 1 },
+      { name: "Iron Ore", amount: 4 },
+      { name: "Coal", amount: 4 },
     ],
   },
   {
