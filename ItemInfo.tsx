@@ -5,6 +5,7 @@ export const resources = [
   "Stone",
   "Coal",
   "Wolframite",
+  "Uranium Ore",
 ];
 
 export const allItems = [
@@ -404,6 +405,36 @@ export const allItems = [
       { name: "Concrete", amount: 4 },
       { name: "Glass", amount: 2 },
       { name: "Tungsten Carbide", amount: 4 },
+    ],
+  },
+  {
+    name: "Nuclear Fuel Cell",
+    itemsPerMin: 2,
+    building: "Industrial Factory",
+    value: 1200,
+    ingredientList: [
+      { name: "Empty Fuel Cell", amount: 1 },
+      { name: "Steel Rod", amount: 1 },
+      { name: "Enriched Uranium", amount: 1 },
+    ],
+  },
+  {
+    name: "Empty Fuel Cell",
+    itemsPerMin: 4,
+    building: "Machine Shop",
+    value: 70,
+    ingredientList: [
+      { name: "Tungsten Carbide", amount: 3 },
+      { name: "Glass", amount: 5 },
+    ],
+  },
+  {
+    name: "Enriched Uranium",
+    itemsPerMin: 1,
+    building: "Furnace",
+    value: 1000,
+    ingredientList: [
+      { name: "Uranium Ore", amount: 30 },
     ],
   },
 ];
