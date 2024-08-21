@@ -39,10 +39,10 @@ export const allItems = [
   },
   {
     name: "Iron Gear",
-    itemsPerMin: 15,
+    itemsPerMin: 60,
     building: "Workshop",
     value: 2,
-    ingredientList: [{ name: "Iron Ingot", amount: 2 }],
+    ingredientList: [{ name: "Steel", amount: 0.125 }],
   },
   {
     name: "Iron Plating",
