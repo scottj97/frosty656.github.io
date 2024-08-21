@@ -203,12 +203,12 @@ export const allItems = [
   },
   {
     name: "Concrete",
-    itemsPerMin: 7.5,
+    itemsPerMin: 5,
     building: "Forge",
     value: 40,
     ingredientList: [
-      { name: "Sand", amount: 10 },
-      { name: "Steel Rod", amount: 1 },
+      { name: "Stone", amount: 20 },
+      { name: "Wood Frame", amount: 4 },
     ],
   },
   {
