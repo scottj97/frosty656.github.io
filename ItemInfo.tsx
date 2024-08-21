@@ -257,14 +257,14 @@ export const allItems = [
   },
   {
     name: "Turbocharger",
-    itemsPerMin: 4,
+    itemsPerMin: 6,
     building: "Manufacturer",
     value: 250,
     ingredientList: [
-      { name: "Iron Gear", amount: 8 },
-      { name: "Logic Circuit", amount: 4 },
-      { name: "Nano Wire", amount: 2 },
-      { name: "Coupler", amount: 4 },
+      { name: "Gyroscope", amount: 1 },
+      { name: "Computer", amount: 1 },
+      { name: "Heat Sink", amount: 4 },
+      { name: "Tungsten Carbide", amount: 1 },
     ],
   },
   {
