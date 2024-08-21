@@ -234,13 +234,13 @@ export const allItems = [
   },
   {
     name: "Electric Motor",
-    itemsPerMin: 3,
+    itemsPerMin: 60/22,
     building: "Industrial Factory",
     value: 250,
     ingredientList: [
-      { name: "Iron Gear", amount: 4 },
-      { name: "Rotor", amount: 2 },
-      { name: "Battery", amount: 1 },
+      { name: "Steel", amount: 6 },
+      { name: "Electromagnet", amount: 6 },
+      { name: "Empty Fuel Cell", amount: 1 },
     ],
   },
   {
