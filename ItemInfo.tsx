@@ -133,12 +133,12 @@ export const allItems = [
   },
   {
     name: "Logic Circuit",
-    itemsPerMin: 10,
+    itemsPerMin: 7.5,
     building: "Machine Shop",
     value: 10,
     ingredientList: [
-      { name: "Copper Wire", amount: 3 },
-      { name: "Silicon", amount: 2 },
+      { name: "Heat Sink", amount: 1 },
+      { name: "Iron Plating", amount: 1 },
     ],
   },
   {
