@@ -213,12 +213,12 @@ export const allItems = [
   },
   {
     name: "Tungsten Carbide",
-    itemsPerMin: 12,
+    itemsPerMin: 8,
     building: "Forge",
     value: 16,
     ingredientList: [
-      { name: "Tungsten Ore", amount: 2 },
-      { name: "Graphite", amount: 1 },
+      { name: "Tungsten Ore", amount: 0.5 },
+      { name: "Steel", amount: 0.5 },
     ],
   },
   {
