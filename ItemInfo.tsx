@@ -123,12 +123,12 @@ export const allItems = [
   },
   {
     name: "Electromagnet",
-    itemsPerMin: 7.5,
+    itemsPerMin: 36,
     building: "Machine Shop",
     value: 14,
     ingredientList: [
-      { name: "Copper Wire", amount: 6 },
-      { name: "Iron Ingot", amount: 2 },
+      { name: "Nano Wire", amount: 1/12 },
+      { name: "Steel Rod", amount: 1/12 },
     ],
   },
   {
