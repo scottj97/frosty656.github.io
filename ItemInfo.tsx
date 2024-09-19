@@ -321,13 +321,13 @@ export const allItems = [
   },
   {
     name: "Industrial Frame",
-    itemsPerMin: 3,
+    itemsPerMin: 5/3,
     building: "Industrial Factory",
     value: 250,
     ingredientList: [
-      { name: "Concrete", amount: 6 },
-      { name: "Metal Frame", amount: 2 },
-      { name: "Tungsten Carbide", amount: 8 },
+      { name: "Steel", amount: 18 },
+      { name: "Iron Plating", amount: 10 },
+      { name: "Carbon Fiber", amount: 4 },
     ],
   },
   {
