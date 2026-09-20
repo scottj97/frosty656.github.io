@@ -163,12 +163,12 @@ export const allItems = [
   },
   {
     name: "Rotor",
-    itemsPerMin: 10,
+    itemsPerMin: 3.3333333333333333,
     building: "Machine Shop",
     value: 40,
     ingredientList: [
-      { name: "Iron Plating", amount: 2 },
-      { name: "Steel Rod", amount: 1 },
+      { name: "Copper Ingot", amount: 18 },
+      { name: "Iron Plating", amount: 18 },
     ],
   },
   {
