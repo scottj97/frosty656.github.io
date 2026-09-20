@@ -25,10 +25,10 @@ export const allItems = [
   },
   {
     name: "Copper Wire",
-    itemsPerMin: 30,
+    itemsPerMin: 60,
     building: "Workshop",
     value: 2,
-    ingredientList: [{ name: "Copper Ingot", amount: 1.5 }],
+    ingredientList: [{ name: "Carbon Fiber", amount: 0.125 }],
   },
   {
     name: "Heat Sink",
